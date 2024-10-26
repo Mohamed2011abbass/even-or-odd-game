@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    background-color: aqua;
+    font-family: "Brush Script MT", cursive;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    background-color: burlywood;
+    font-size: x-large;
+    border: solid gold;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.container > p{
+    margin: 0;
+}
+button{
+    background-color: yellow;
+    color: black;
+    font-size: large;
+    border: solid ;
+    border-radius: 20px;
+    padding: 0 20px;
+    font-family: "Brush Script MT", cursive;
+
+}
+button:hover{
+    background-color: rgb(247, 237, 230);
+    color: rgb(226, 43, 189);
+}
+.userControl{
+    display: flex;
+    justify-content: space-around;
+}
+h1{
+    color: rgb(220, 14, 48);
+}
